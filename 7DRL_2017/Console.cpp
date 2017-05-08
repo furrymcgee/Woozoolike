@@ -3,6 +3,7 @@
 #include <SFML/Graphics/RenderTarget.hpp>
 
 #include <iostream>
+#include <cmath>
 
 // HACK: Korean
 namespace

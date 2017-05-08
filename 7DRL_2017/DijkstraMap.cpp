@@ -1,6 +1,7 @@
 #include "DijkstraMap.hpp"
 #include "Map.hpp"
 #include "Direction.hpp"
+#include <climits>
 
 void DijkstraMap::setMap(Map& map)
 {
