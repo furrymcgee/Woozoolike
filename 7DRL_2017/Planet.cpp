@@ -1,4 +1,4 @@
-﻿#include "Planet.hpp"
+#include "Planet.hpp"
 #include "Level.hpp"
 #include "Renderer.hpp"
 #include "Color.hpp"

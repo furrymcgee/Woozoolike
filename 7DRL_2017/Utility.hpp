@@ -4,6 +4,7 @@
 
 #include <vector>
 #include <cmath> // sqrt, abs
+#include <string>
 
 // Random number generation
 int randomInt(int exclusiveMax); // [0, max)

@@ -1,4 +1,4 @@
-﻿#include "Spaceship.hpp"
+#include "Spaceship.hpp"
 #include "Rng.hpp"
 #include "Color.hpp"
 #include "Direction.hpp"

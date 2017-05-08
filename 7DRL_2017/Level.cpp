@@ -23,6 +23,7 @@
 #include <algorithm> // find_if, remove_if
 #include <functional> // mem_fn
 #include <cassert>
+#include <climits>
 
 namespace
 {
