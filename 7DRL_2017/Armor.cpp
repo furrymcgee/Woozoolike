@@ -60,7 +60,7 @@ std::wstring Armor::getName(Article article) const
 	case Body:		name = Strings::get("BodyArmor"); break;
 	}
 
-	// TODO: 茄臂 贸府 扁龋 [, ] 客 集咯 坷幅 惯积
+	// TODO: 頃滉竴 觳橂Μ 旮绊樃 [, ] 鞕� 靹烄棳 鞓る 氚滌儩
 	// name += L" [" + std::to_wstring(defense) + L"]";
 
 	if (type == Body && article == Article::A)

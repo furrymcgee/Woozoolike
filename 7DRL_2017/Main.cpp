@@ -4,7 +4,7 @@
 int main()
 {
 	// initialize Strings
-	Strings::load(Language::Korean);
+	Strings::load(Language::English);
 
 	Application app;
 	app.run();

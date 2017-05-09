@@ -393,21 +393,21 @@ void Level::trimWalls()
 			switch (tile)
 			{
 			case  0: tile = L'#'; break;
-			case  1: tile = L'¦¢'; break; // 0x2502
-			case  2: tile = L'¦¡'; break; // 0x2500
-			case  3: tile = L'¦¥'; break; // 0x2518
-			case  4: tile = L'¦¡'; break; // 0x2500
-			case  5: tile = L'¦¦'; break; // 0x2514
-			case  6: tile = L'¦¡'; break; // 0x2500
-			case  7: tile = L'¦ª'; break; // 0x2534
-			case  8: tile = L'¦¢'; break; // 0x2502
-			case  9: tile = L'¦¢'; break; // 0x2502
-			case 10: tile = L'¦¤'; break; // 0x2510
-			case 11: tile = L'¦©'; break; // 0x2524
-			case 12: tile = L'¦£'; break; // 0x250c
-			case 13: tile = L'¦§'; break; // 0x251c
-			case 14: tile = L'¦¨'; break; // 0x252c
-			case 15: tile = L'¦«'; break; // 0x253c
+			case  1: tile = L'â”‚'; break; // 0x2502
+			case  2: tile = L'â”€'; break; // 0x2500
+			case  3: tile = L'â”˜'; break; // 0x2518
+			case  4: tile = L'â”€'; break; // 0x2500
+			case  5: tile = L'â””'; break; // 0x2514
+			case  6: tile = L'â”€'; break; // 0x2500
+			case  7: tile = L'â”´'; break; // 0x2534
+			case  8: tile = L'â”‚'; break; // 0x2502
+			case  9: tile = L'â”‚'; break; // 0x2502
+			case 10: tile = L'â”'; break; // 0x2510
+			case 11: tile = L'â”¤'; break; // 0x2524
+			case 12: tile = L'â”Œ'; break; // 0x250c
+			case 13: tile = L'â”œ'; break; // 0x251c
+			case 14: tile = L'â”¬'; break; // 0x252c
+			case 15: tile = L'â”¼'; break; // 0x253c
 			}
 			*/
 
@@ -417,21 +417,21 @@ void Level::trimWalls()
 			switch (tile)
 			{
 			case  0: tile = L'#'; break;
-			case  1: tile = 0x2551; break; // L'¦¢';
-			case  2: tile = 0x2550; break; // L'¦¡';
-			case  3: tile = 0x255d; break; // L'¦¥';
-			case  4: tile = 0x2550; break; // L'¦¡';
-			case  5: tile = 0x255a; break; // L'¦¦';
-			case  6: tile = 0x2550; break; // L'¦¡';
-			case  7: tile = 0x2569; break; // L'¦ª';
-			case  8: tile = 0x2551; break; // L'¦¢';
-			case  9: tile = 0x2551; break; // L'¦¢';
-			case 10: tile = 0x2557; break; // L'¦¤';
-			case 11: tile = 0x2563; break; // L'¦©';
-			case 12: tile = 0x2554; break; // L'¦£';
-			case 13: tile = 0x2560; break; // L'¦§';
-			case 14: tile = 0x2566; break; // L'¦¨';
-			case 15: tile = 0x256c; break; // L'¦«';
+			case  1: tile = 0x2551; break; // L'â”‚';
+			case  2: tile = 0x2550; break; // L'â”€';
+			case  3: tile = 0x255d; break; // L'â”˜';
+			case  4: tile = 0x2550; break; // L'â”€';
+			case  5: tile = 0x255a; break; // L'â””';
+			case  6: tile = 0x2550; break; // L'â”€';
+			case  7: tile = 0x2569; break; // L'â”´';
+			case  8: tile = 0x2551; break; // L'â”‚';
+			case  9: tile = 0x2551; break; // L'â”‚';
+			case 10: tile = 0x2557; break; // L'â”';
+			case 11: tile = 0x2563; break; // L'â”¤';
+			case 12: tile = 0x2554; break; // L'â”Œ';
+			case 13: tile = 0x2560; break; // L'â”œ';
+			case 14: tile = 0x2566; break; // L'â”¬';
+			case 15: tile = 0x256c; break; // L'â”¼';
 			}
 
 			at(x, y).glyph = tile;
@@ -441,17 +441,17 @@ void Level::trimWalls()
 
 			switch (tile)
 			{
-			case L'¦¢': case 0x2551: number = 179; break; // 0x2502
-			case L'¦©': case 0x2563: number = 180; break; // 0x2524
-			case L'¦¤': case 0x2557: number = 191; break; // 0x2510
-			case L'¦¦': case 0x255a: number = 192; break; // 0x2514
-			case L'¦ª': case 0x2569: number = 193; break; // 0x2534
-			case L'¦¨': case 0x2566: number = 194; break; // 0x252c
-			case L'¦§': case 0x2560: number = 195; break; // 0x251c
-			case L'¦¡': case 0x2550: number = 196; break; // 0x2500
-			case L'¦«': case 0x256c: number = 197; break; // 0x253c
-			case L'¦¥': case 0x255d: number = 217; break; // 0x2518
-			case L'¦£': case 0x2554: number = 218; break; // 0x250c
+			case L'â”‚': case 0x2551: number = 179; break; // 0x2502
+			case L'â”¤': case 0x2563: number = 180; break; // 0x2524
+			case L'â”': case 0x2557: number = 191; break; // 0x2510
+			case L'â””': case 0x255a: number = 192; break; // 0x2514
+			case L'â”´': case 0x2569: number = 193; break; // 0x2534
+			case L'â”¬': case 0x2566: number = 194; break; // 0x252c
+			case L'â”œ': case 0x2560: number = 195; break; // 0x251c
+			case L'â”€': case 0x2550: number = 196; break; // 0x2500
+			case L'â”¼': case 0x256c: number = 197; break; // 0x253c
+			case L'â”˜': case 0x255d: number = 217; break; // 0x2518
+			case L'â”Œ': case 0x2554: number = 218; break; // 0x250c
 			}
 
 			at(x, y).tileNumber = number;

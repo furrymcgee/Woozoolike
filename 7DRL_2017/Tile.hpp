@@ -10,8 +10,8 @@ struct Tile
 		Floor		= L'.',
 		Wall		= L'#',
 		Object		= L'&',
-		ClosedDoor	= L'+', // ¡á
-		OpenDoor	= L'-', // ¡à
+		ClosedDoor	= L'+', // â– 
+		OpenDoor	= L'-', // â–¡
 		UpStairs	= L'<',
 		DownStairs	= L'>',
 	};

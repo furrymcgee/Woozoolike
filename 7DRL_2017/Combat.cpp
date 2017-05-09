@@ -214,7 +214,7 @@ void Combat::damage()
 
 		attacker.lastTarget = nullptr;
 
-		// UNDONE: bloodstain, Àû(¸ó½ºÅÍ) Á¾·ù¿¡ µû¸¥ ÇÇ, Ã¼·ÂÀÌ Àý¹Ý ÀÌÇÏ·Î ¶³¾îÁú °æ¿ì¿¡µµ Èê¸²
+		// UNDONE: bloodstain, ì (ëª¬ìŠ¤í„°) ì¢…ë¥˜ì— ë”°ë¥¸ í”¼, ì²´ë ¥ì´ ì ˆë°˜ ì´í•˜ë¡œ ë–¨ì–´ì§ˆ ê²½ìš°ì—ë„ í˜ë¦¼
 		Tile& tile = world->getLevel().at(defender.getPosition());
 
 		if (tile.blood < 0)
@@ -309,7 +309,7 @@ std::wstring Combat::makePossessive(const std::wstring& subject, const std::wstr
 	}
 
 	else if (Strings::getLanguage() == Language::Korean)
-		result = subject + L"ÀÇ ";
+		result = subject + L"ì˜ ";
 
 	return result + noun;
 }

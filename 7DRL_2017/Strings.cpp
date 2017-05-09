@@ -201,180 +201,180 @@ namespace Strings
 		else if (language == Language::Korean)
 		{
 			// HelpState
-			stringMap["Commands"] = L"- Á¶ÀÛÅ° -";
-			stringMap["Command"] = L"ÀÌµ¿ ¶Ç´Â ±ÙÁ¢ °ø°İ";
-			stringMap["Command2"] = L"(¼ıÀÚÆĞµå, vi Å°,";
-			stringMap["Command3"] = L" ¶Ç´Â È­»ìÇ¥Å° + PgUp, PgDn, Home, End)";
-			stringMap["Command4"] = L"Çà¼º Âø·ú/ÀÌ·ú, ÇÑÅÏ ½¬±â";
-			stringMap["Command5"] = L"Å»°Í Å¸±â/³»¸®±â, ¾ÆÀÌÅÛ Áİ±â";
-			stringMap["Command6"] = L"ÀÌÀü ¸Ş½ÃÁö º¸±â";
-			stringMap["Command7"] = L"ÀÌÀü/´ÙÀ½ ¹«±â ¼±ÅÃ";
-			stringMap["Command8"] = L"ÀåÂøÁßÀÎ ¹«±â ¹ö¸®±â";
-			stringMap["Command9"] = L"¹ß»ç (q/w ¸ñÇ¥ º¯°æ, Esc/Tab Ãë¼Ò)";
-			stringMap["Functions"] = L"- ±â´ÉÅ° -";
-			stringMap["Zoom"] = L"È­¸é È®´ë/Ãà¼Ò";
-			stringMap["F1"] = L"µµ¿ò¸» (ÀÌ È­¸é)";
-			stringMap["F2"] = L"±×·¡ÇÈ Åä±Û (¾Æ½ºÅ°/Å¸ÀÏ)";
-			stringMap["F3"] = L"È­¸é ÇÊÅÍ È¿°ú Åä±Û";
+			stringMap["Commands"] = L"- ì¡°ì‘í‚¤ -";
+			stringMap["Command"] = L"ì´ë™ ë˜ëŠ” ê·¼ì ‘ ê³µê²©";
+			stringMap["Command2"] = L"(ìˆ«ìíŒ¨ë“œ, vi í‚¤,";
+			stringMap["Command3"] = L" ë˜ëŠ” í™”ì‚´í‘œí‚¤ + PgUp, PgDn, Home, End)";
+			stringMap["Command4"] = L"í–‰ì„± ì°©ë¥™/ì´ë¥™, í•œí„´ ì‰¬ê¸°";
+			stringMap["Command5"] = L"íƒˆê²ƒ íƒ€ê¸°/ë‚´ë¦¬ê¸°, ì•„ì´í…œ ì¤ê¸°";
+			stringMap["Command6"] = L"ì´ì „ ë©”ì‹œì§€ ë³´ê¸°";
+			stringMap["Command7"] = L"ì´ì „/ë‹¤ìŒ ë¬´ê¸° ì„ íƒ";
+			stringMap["Command8"] = L"ì¥ì°©ì¤‘ì¸ ë¬´ê¸° ë²„ë¦¬ê¸°";
+			stringMap["Command9"] = L"ë°œì‚¬ (q/w ëª©í‘œ ë³€ê²½, Esc/Tab ì·¨ì†Œ)";
+			stringMap["Functions"] = L"- ê¸°ëŠ¥í‚¤ -";
+			stringMap["Zoom"] = L"í™”ë©´ í™•ëŒ€/ì¶•ì†Œ";
+			stringMap["F1"] = L"ë„ì›€ë§ (ì´ í™”ë©´)";
+			stringMap["F2"] = L"ê·¸ë˜í”½ í† ê¸€ (ì•„ìŠ¤í‚¤/íƒ€ì¼)";
+			stringMap["F3"] = L"í™”ë©´ í•„í„° íš¨ê³¼ í† ê¸€";
 
 			// GameState
-			stringMap["OutOfAmmo"] = L"Åº¾àÀÌ ´Ù ¶³¾îÁ³´Ù. ´õ ÀÌ»ó ½ò ÃÑ¾ËÀÌ ¾ø´Ù...";
+			stringMap["OutOfAmmo"] = L"íƒ„ì•½ì´ ë‹¤ ë–¨ì–´ì¡Œë‹¤. ë” ì´ìƒ ì  ì´ì•Œì´ ì—†ë‹¤...";
 
 			// World
-			stringMap["Welcome"] = L"¾î¼­¿À¼¼¿ä, ¿ìÁÖ ¿©ÇàÀÚ´Ô. ¿î¸íÀÇ ¿ìÁÖ¿¡ ¿À½Å °ÍÀ» È¯¿µÇÕ´Ï´Ù!";
-			stringMap["Welcome2"] = L"¿º´õÀÇ ºÎÀûÀ» Ã£¾Æ ÀÌ ¿ìÁÖ¸¦ ±¸ÇØÁÖ¼¼¿ä!";
-			stringMap["Welcome3"] = L"'F1' ¶Ç´Â '?' Å°¸¦ ´©¸£¸é ¾ğÁ¦µçÁö µµ¿ò¸»À» º¼ ¼ö ÀÖ½À´Ï´Ù.";
-			stringMap["FuelEmpty"] = L"¿¬·á°¡ ¾ø´Ù. ¿£ÁøÀÌ Á¤ÁöÇß´Ù...";
-			stringMap["OnWhiteHole"] = L"¿©±â¿¡ È­ÀÌÆ®È¦ÀÌ ÀÖ´Ù.";
-			stringMap["OnSingularity"] = L"¿©±â¿¡ Æ¯ÀÌÁ¡ÀÌ ÀÖ´Ù.";
-			stringMap["LandBlackHole"] = L"ÀÌ °÷¿¡ Á¢±ÙÇÏ´Â °ÍÀº ³Ê¹« À§ÇèÇØº¸ÀÎ´Ù."; // ¾ÏÈæ ¿¡³ÊÁö(Dark energy)
-			stringMap["LandBlackHole2"] = L"ºû³ª´Â ºÎÀû Á¶°¢µéÀÌ ¿ìÁÖ¼±À» º¸È£ÇÑ´Ù.";
-			stringMap["Landed"] = L"¾ÈÀüÇÏ°Ô Áö»ó¿¡ Âø·úÇß´Ù.";
-			stringMap["Left"] = L"Çà¼ºÀ» ¶°³µ´Ù.";
-			stringMap["Invade"] = L"Á¶¿ëÈ÷ ¿ìÁÖ¼± ¾ÈÀ¸·Î Ä§ÀÔÇß´Ù.";
-			stringMap["Cockpit"] = L"Á¶Á¾¼®¿¡¼­ ÀÏ¾î³µ´Ù.";
-			stringMap["PilotFail"] = L"¾ÆÁ÷ ¿ìÁÖ¼± ¾È¿¡ ÀûÀÌ ³²¾ÆÀÖ´Ù.";
+			stringMap["Welcome"] = L"ì–´ì„œì˜¤ì„¸ìš”, ìš°ì£¼ ì—¬í–‰ìë‹˜. ìš´ëª…ì˜ ìš°ì£¼ì— ì˜¤ì‹  ê²ƒì„ í™˜ì˜í•©ë‹ˆë‹¤!";
+			stringMap["Welcome2"] = L"ì˜Œë”ì˜ ë¶€ì ì„ ì°¾ì•„ ì´ ìš°ì£¼ë¥¼ êµ¬í•´ì£¼ì„¸ìš”!";
+			stringMap["Welcome3"] = L"'F1' ë˜ëŠ” '?' í‚¤ë¥¼ ëˆ„ë¥´ë©´ ì–¸ì œë“ ì§€ ë„ì›€ë§ì„ ë³¼ ìˆ˜ ìˆìŠµë‹ˆë‹¤.";
+			stringMap["FuelEmpty"] = L"ì—°ë£Œê°€ ì—†ë‹¤. ì—”ì§„ì´ ì •ì§€í–ˆë‹¤...";
+			stringMap["OnWhiteHole"] = L"ì—¬ê¸°ì— í™”ì´íŠ¸í™€ì´ ìˆë‹¤.";
+			stringMap["OnSingularity"] = L"ì—¬ê¸°ì— íŠ¹ì´ì ì´ ìˆë‹¤.";
+			stringMap["LandBlackHole"] = L"ì´ ê³³ì— ì ‘ê·¼í•˜ëŠ” ê²ƒì€ ë„ˆë¬´ ìœ„í—˜í•´ë³´ì¸ë‹¤."; // ì•”í‘ ì—ë„ˆì§€(Dark energy)
+			stringMap["LandBlackHole2"] = L"ë¹›ë‚˜ëŠ” ë¶€ì  ì¡°ê°ë“¤ì´ ìš°ì£¼ì„ ì„ ë³´í˜¸í•œë‹¤.";
+			stringMap["Landed"] = L"ì•ˆì „í•˜ê²Œ ì§€ìƒì— ì°©ë¥™í–ˆë‹¤.";
+			stringMap["Left"] = L"í–‰ì„±ì„ ë– ë‚¬ë‹¤.";
+			stringMap["Invade"] = L"ì¡°ìš©íˆ ìš°ì£¼ì„  ì•ˆìœ¼ë¡œ ì¹¨ì…í–ˆë‹¤.";
+			stringMap["Cockpit"] = L"ì¡°ì¢…ì„ì—ì„œ ì¼ì–´ë‚¬ë‹¤.";
+			stringMap["PilotFail"] = L"ì•„ì§ ìš°ì£¼ì„  ì•ˆì— ì ì´ ë‚¨ì•„ìˆë‹¤.";
 
 			// Sidebar
-			stringMap["Health"] = L"Ã¼·Â";
-			stringMap["Fuel"] = L"¿¬·á";
-			stringMap["Oxygen"] = L"»ê¼Ò";
-			stringMap["Armor"] = L"¹æ¾î";
-			stringMap["EnterShip"] = L"¿ìÁÖ¼± Å¾½Â";
-			stringMap["ExitShip"] = L"¿ìÁÖ¼± ³ª°¡±â";
-			stringMap["GoInside"] = L"¿ìÁÖ¼± ¾ÈÀ¸·Î";
-			stringMap["GoOutside"] = L"¿ìÁÖ¼± ¹ÛÀ¸·Î";
-			stringMap["PilotShip"] = L"¿ìÁÖ¼± Á¶Á¾";
-			stringMap["LandOn"] = L"Âø·ú";
-			stringMap["TakeOff"] = L"ÀÌ·ú";
-			stringMap["Fire"] = L"¹ß»ç";
-			stringMap["WeaponSwap"] = L"¹«±â ±³Ã¼";
-			stringMap["WeaponDrop"] = L"¹«±â ¹ö¸®±â";
-			stringMap["PickUp"] = L"Áİ±â";
-			stringMap["Escape"] = L"Å»ÃâÇÏ±â";
-			stringMap["Destroy"] = L"ÆÄ±«ÇÏ±â";
-			stringMap["Wait"] = L"´ë±â";
+			stringMap["Health"] = L"ì²´ë ¥";
+			stringMap["Fuel"] = L"ì—°ë£Œ";
+			stringMap["Oxygen"] = L"ì‚°ì†Œ";
+			stringMap["Armor"] = L"ë°©ì–´";
+			stringMap["EnterShip"] = L"ìš°ì£¼ì„  íƒ‘ìŠ¹";
+			stringMap["ExitShip"] = L"ìš°ì£¼ì„  ë‚˜ê°€ê¸°";
+			stringMap["GoInside"] = L"ìš°ì£¼ì„  ì•ˆìœ¼ë¡œ";
+			stringMap["GoOutside"] = L"ìš°ì£¼ì„  ë°–ìœ¼ë¡œ";
+			stringMap["PilotShip"] = L"ìš°ì£¼ì„  ì¡°ì¢…";
+			stringMap["LandOn"] = L"ì°©ë¥™";
+			stringMap["TakeOff"] = L"ì´ë¥™";
+			stringMap["Fire"] = L"ë°œì‚¬";
+			stringMap["WeaponSwap"] = L"ë¬´ê¸° êµì²´";
+			stringMap["WeaponDrop"] = L"ë¬´ê¸° ë²„ë¦¬ê¸°";
+			stringMap["PickUp"] = L"ì¤ê¸°";
+			stringMap["Escape"] = L"íƒˆì¶œí•˜ê¸°";
+			stringMap["Destroy"] = L"íŒŒê´´í•˜ê¸°";
+			stringMap["Wait"] = L"ëŒ€ê¸°";
 
 			// ActorData
-			stringMap["You"] = L"´ç½Å";
-			stringMap["Alien"] = L"¿¡ÀÏ¸®¾ğ";
-			stringMap["Birdian"] = L"¹öµğ¾ğ";
-			stringMap["Clay"] = L"ÈëÀÎ°£";
+			stringMap["You"] = L"ë‹¹ì‹ ";
+			stringMap["Alien"] = L"ì—ì¼ë¦¬ì–¸";
+			stringMap["Birdian"] = L"ë²„ë””ì–¸";
+			stringMap["Clay"] = L"í™ì¸ê°„";
 			// d
-			stringMap["EvolvedMutant"] = L"ÁøÈ­ µ¹¿¬º¯ÀÌ";
-			stringMap["Folyp"] = L"¿ìÁÖ ÇØÆÄ¸®";
-			stringMap["RiotPolice"] = L"ÀºÇÏ °æÂû";
+			stringMap["EvolvedMutant"] = L"ì§„í™” ëŒì—°ë³€ì´";
+			stringMap["Folyp"] = L"ìš°ì£¼ í•´íŒŒë¦¬";
+			stringMap["RiotPolice"] = L"ì€í•˜ ê²½ì°°";
 			// h
-			stringMap["Ilyth"] = L"¹«³ÊÀÎ°£";
+			stringMap["Ilyth"] = L"ë¬´ë„ˆì¸ê°„";
 			// j
 			// k
 			// l
-			stringMap["Mutant"] = L"µ¹¿¬º¯ÀÌ";
+			stringMap["Mutant"] = L"ëŒì—°ë³€ì´";
 			// n
-			stringMap["Ooze"] = L"¼ö¾× ±«¹°";
-			stringMap["Predator"] = L"Æ÷½ÄÀÚ";
+			stringMap["Ooze"] = L"ìˆ˜ì•¡ ê´´ë¬¼";
+			stringMap["Predator"] = L"í¬ì‹ì";
 			// q
-			stringMap["Raider"] = L"¹«¹ıÀÚ";
-			stringMap["SpaceMarine"] = L"¿ìÁÖ ÇØº´";
-			stringMap["Turret"] = L"¹«ÀÎ Æ÷Å¾";
+			stringMap["Raider"] = L"ë¬´ë²•ì";
+			stringMap["SpaceMarine"] = L"ìš°ì£¼ í•´ë³‘";
+			stringMap["Turret"] = L"ë¬´ì¸ í¬íƒ‘";
 			// u
-			stringMap["Viper"] = L"¿ìÁÖ ÇØÀû";
+			stringMap["Viper"] = L"ìš°ì£¼ í•´ì ";
 			// w
 			// x
-			stringMap["Yeti"] = L"¼³ÀÎ";
-			stringMap["Zombie"] = L"Á»ºñ";
-			stringMap["Something"] = L"¹«¾ğ°¡";
+			stringMap["Yeti"] = L"ì„¤ì¸";
+			stringMap["Zombie"] = L"ì¢€ë¹„";
+			stringMap["Something"] = L"ë¬´ì–¸ê°€";
 
 			// Actor
-			stringMap["OxygenLow"] = L"»ê¼Ò°¡ ºÎÁ·ÇÏ´Ù! ¼­µÑ·¯¾ß ÇÑ´Ù.";
-			stringMap["OxygenEmpty"] = L"»ê¼Ò°¡ ¾ø´Ù. ¼ûÀ» ½¯ ¼ö°¡ ¾ø´Ù!";
-			stringMap["OxygenDied"] = L"Áú½ÄÇØ¼­ Á×¾ú´Ù...";
+			stringMap["OxygenLow"] = L"ì‚°ì†Œê°€ ë¶€ì¡±í•˜ë‹¤! ì„œë‘˜ëŸ¬ì•¼ í•œë‹¤.";
+			stringMap["OxygenEmpty"] = L"ì‚°ì†Œê°€ ì—†ë‹¤. ìˆ¨ì„ ì‰´ ìˆ˜ê°€ ì—†ë‹¤!";
+			stringMap["OxygenDied"] = L"ì§ˆì‹í•´ì„œ ì£½ì—ˆë‹¤...";
 
 			// Combat
-			stringMap["Destroyed"] = L"{1}[ÀÌ|°¡] ÆÄ±«µÇ¾ú´Ù.";
-			stringMap["Graze"] = L"{1}[ÀÌ|°¡] {2}[À»|¸¦] ½ºÃÆ´Ù."; // ÃÑ¾ËÀÌ Çï¸ËÀ» ½ºÃÆ´Ù.
-			stringMap["GlanceOff"] = L"{1}[Àº|´Â] {2}¿¡ Æ¨°Ü³ª°¬´Ù."; // ÃÑ¾ËÀº ¹æÆĞ¿¡ Æ¨°Ü³ª°¬´Ù.
-			stringMap["Block"] = L"{1}[À¸·Î|·Î] °ø°İÀ» ¸·¾Ò´Ù."; // ¹æÆĞ·Î °ø°İÀ» ¸·¾Ò´Ù.
-			stringMap["Miss"] = L"ºø¸ÂÇû´Ù";
-			stringMap["Misses"] = L"ºø¸ÂÇû´Ù";
-			stringMap["Hit"] = L"°ø°İÇß´Ù";
-			stringMap["Hits"] = L"°ø°İÇß´Ù";
-			stringMap["TheBullet"] = L"ÃÑ¾Ë";
-			stringMap["TheBullets"] = L"ÃÑ¾Ë";
-			stringMap["TheMissile"] = L"¹Ì»çÀÏ";
-			stringMap["TheExplosion"] = L"Äç! Æø¹ß";
-			stringMap["Slash"] = L"º£¾ú´Ù";
-			stringMap["Slashes"] = L"º£¾ú´Ù";
-			stringMap["Slice"] = L"º£¾ú´Ù";
-			stringMap["Slices"] = L"º£¾ú´Ù";
-			stringMap["CutOff"] = L"Âñ·¶´Ù";
-			stringMap["CutsOff"] = L"Âñ·¶´Ù";
-			stringMap["Attack"] = L"{1}[Àº|´Â] {3}[À»|¸¦] {2}.";
-			stringMap["Attack2"] = L"{1}[Àº|´Â] {3}[À»|¸¦] {2}. {4}ÀÇ ÇÇÇØ¸¦ ÁÖ¾ú´Ù.";
+			stringMap["Destroyed"] = L"{1}[ì´|ê°€] íŒŒê´´ë˜ì—ˆë‹¤.";
+			stringMap["Graze"] = L"{1}[ì´|ê°€] {2}[ì„|ë¥¼] ìŠ¤ì³¤ë‹¤."; // ì´ì•Œì´ í—¬ë§·ì„ ìŠ¤ì³¤ë‹¤.
+			stringMap["GlanceOff"] = L"{1}[ì€|ëŠ”] {2}ì— íŠ•ê²¨ë‚˜ê°”ë‹¤."; // ì´ì•Œì€ ë°©íŒ¨ì— íŠ•ê²¨ë‚˜ê°”ë‹¤.
+			stringMap["Block"] = L"{1}[ìœ¼ë¡œ|ë¡œ] ê³µê²©ì„ ë§‰ì•˜ë‹¤."; // ë°©íŒ¨ë¡œ ê³µê²©ì„ ë§‰ì•˜ë‹¤.
+			stringMap["Miss"] = L"ë¹—ë§í˜”ë‹¤";
+			stringMap["Misses"] = L"ë¹—ë§í˜”ë‹¤";
+			stringMap["Hit"] = L"ê³µê²©í–ˆë‹¤";
+			stringMap["Hits"] = L"ê³µê²©í–ˆë‹¤";
+			stringMap["TheBullet"] = L"ì´ì•Œ";
+			stringMap["TheBullets"] = L"ì´ì•Œ";
+			stringMap["TheMissile"] = L"ë¯¸ì‚¬ì¼";
+			stringMap["TheExplosion"] = L"ì¾…! í­ë°œ";
+			stringMap["Slash"] = L"ë² ì—ˆë‹¤";
+			stringMap["Slashes"] = L"ë² ì—ˆë‹¤";
+			stringMap["Slice"] = L"ë² ì—ˆë‹¤";
+			stringMap["Slices"] = L"ë² ì—ˆë‹¤";
+			stringMap["CutOff"] = L"ì°”ë €ë‹¤";
+			stringMap["CutsOff"] = L"ì°”ë €ë‹¤";
+			stringMap["Attack"] = L"{1}[ì€|ëŠ”] {3}[ì„|ë¥¼] {2}.";
+			stringMap["Attack2"] = L"{1}[ì€|ëŠ”] {3}[ì„|ë¥¼] {2}. {4}ì˜ í”¼í•´ë¥¼ ì£¼ì—ˆë‹¤.";
 			// HACK: Korean
-			stringMap["RangedHit"] = L"¸íÁßÇß´Ù";
-			stringMap["RangedHits"] = L"¸íÁßÇß´Ù";
-			stringMap["RangedAttack"] = L"{1}[ÀÌ|°¡] {3}¿¡ {2}.";
-			stringMap["RangedAttack2"] = L"{1}[ÀÌ|°¡] {3}¿¡ {2}. {4}ÀÇ ÇÇÇØ¸¦ ÁÖ¾ú´Ù.";
+			stringMap["RangedHit"] = L"ëª…ì¤‘í–ˆë‹¤";
+			stringMap["RangedHits"] = L"ëª…ì¤‘í–ˆë‹¤";
+			stringMap["RangedAttack"] = L"{1}[ì´|ê°€] {3}ì— {2}.";
+			stringMap["RangedAttack2"] = L"{1}[ì´|ê°€] {3}ì— {2}. {4}ì˜ í”¼í•´ë¥¼ ì£¼ì—ˆë‹¤.";
 			//
-			stringMap["YouDie"] = L"Á×¾ú´Ù...";
-			stringMap["Kill"] = L"{1}[Àº|´Â] Á×¾ú´Ù.";
+			stringMap["YouDie"] = L"ì£½ì—ˆë‹¤...";
+			stringMap["Kill"] = L"{1}[ì€|ëŠ”] ì£½ì—ˆë‹¤.";
 
 			// AI
-			stringMap["Notice"] = L"{1}[Àº|´Â] {2}[À»|¸¦] ¾Ë¾ÆÃ«´Ù.";
+			stringMap["Notice"] = L"{1}[ì€|ëŠ”] {2}[ì„|ë¥¼] ì•Œì•„ì±˜ë‹¤.";
 
 			// Weapon
-			stringMap["CombatKnife"] = L"ÀüÅõ ³ªÀÌÇÁ"; // ÀüÅõ ´Ü°Ë, ÄÄ¹î ³ªÀÌÇÁ
-			stringMap["LaserCutlass"] = L"·¹ÀÌÀú °Ë";
-			stringMap["Pistol"] = L"±ÇÃÑ";
-			stringMap["Shotgun"] = L"»êÅºÃÑ";
-			stringMap["AssaultRifle"] = L"µ¹°İ ¼ÒÃÑ";
-			stringMap["SniperRifle"] = L"Àú°İ ¼ÒÃÑ";
-			stringMap["RocketLauncher"] = L"·ÎÄÏ ·±Ã³"; // ·ÎÄÏ ¹ß»ç±â
+			stringMap["CombatKnife"] = L"ì „íˆ¬ ë‚˜ì´í”„"; // ì „íˆ¬ ë‹¨ê²€, ì»´ë±ƒ ë‚˜ì´í”„
+			stringMap["LaserCutlass"] = L"ë ˆì´ì € ê²€";
+			stringMap["Pistol"] = L"ê¶Œì´";
+			stringMap["Shotgun"] = L"ì‚°íƒ„ì´";
+			stringMap["AssaultRifle"] = L"ëŒê²© ì†Œì´";
+			stringMap["SniperRifle"] = L"ì €ê²© ì†Œì´";
+			stringMap["RocketLauncher"] = L"ë¡œì¼“ ëŸ°ì²˜"; // ë¡œì¼“ ë°œì‚¬ê¸°
 
 			// Armor
-			stringMap["Shield"] = L"¹æÆĞ";
-			stringMap["Helmet"] = L"Çï¸ä";
-			stringMap["BodyArmor"] = L"¹æÅºº¹";
-			stringMap["WearArmor"] = L"{1}[À»|¸¦] Âø¿ëÇß´Ù.";
-			stringMap["PickUpArmor"] = L"{1}[À»|¸¦] È¹µæÇß´Ù.";
+			stringMap["Shield"] = L"ë°©íŒ¨";
+			stringMap["Helmet"] = L"í—¬ë©§";
+			stringMap["BodyArmor"] = L"ë°©íƒ„ë³µ";
+			stringMap["WearArmor"] = L"{1}[ì„|ë¥¼] ì°©ìš©í–ˆë‹¤.";
+			stringMap["PickUpArmor"] = L"{1}[ì„|ë¥¼] íšë“í–ˆë‹¤.";
 
 			// Medikit
-			stringMap["Medkit"] = L"±¸±Ş »óÀÚ"; // ¸ŞµğÅ¶
-			stringMap["UseMedkit"] = L"{1}[À»|¸¦] ÁÖ¿ö »ç¿ëÇß´Ù. »óÅÂ°¡ ÁÁ¾ÆÁ³´Ù.";
+			stringMap["Medkit"] = L"êµ¬ê¸‰ ìƒì"; // ë©”ë””í‚·
+			stringMap["UseMedkit"] = L"{1}[ì„|ë¥¼] ì£¼ì›Œ ì‚¬ìš©í–ˆë‹¤. ìƒíƒœê°€ ì¢‹ì•„ì¡Œë‹¤.";
 
 			// Amulet
-			stringMap["AmuletPiece"] = L"ºÎÀû Á¶°¢";
-			stringMap["AmuletAll"] = L"¸ğµç ºÎÀû Á¶°¢À» ¸ğ¾Ò´Ù!";
-			stringMap["AmuletAll2"] = L"¿ÏÀüÇÑ ¿º´õÀÇ ºÎÀû¸¦ È¹µæÇß´Ù.";
-			stringMap["AmuletThree"] = L"Á¶°¢µéÀÌ ÇÏ³ª°¡ µÇ¾ú´Ù. ±×·¯³ª ¾ÆÁ÷ ºÎÁ·ÇÑ Á¶°¢ÀÌ ÀÖ´Ù.";
-			stringMap["AmuletThree2"] = L"ÀÌÁ¦ ºí·¢È¦¿¡ Âø·úÇÒ ¼ö ÀÖ´Ù.";
-			stringMap["AmuletGet"] = L"¿º´õÀÇ ºÎÀû Á¶°¢ ÇÏ³ª¸¦ È¹µæÇß´Ù.";
-			stringMap["AmuletGet2"] = L"¿º´õÀÇ ºÎÀû Á¶°¢À» {1}°³Â° È¹µæÇß´Ù.";
+			stringMap["AmuletPiece"] = L"ë¶€ì  ì¡°ê°";
+			stringMap["AmuletAll"] = L"ëª¨ë“  ë¶€ì  ì¡°ê°ì„ ëª¨ì•˜ë‹¤!";
+			stringMap["AmuletAll2"] = L"ì™„ì „í•œ ì˜Œë”ì˜ ë¶€ì ë¥¼ íšë“í–ˆë‹¤.";
+			stringMap["AmuletThree"] = L"ì¡°ê°ë“¤ì´ í•˜ë‚˜ê°€ ë˜ì—ˆë‹¤. ê·¸ëŸ¬ë‚˜ ì•„ì§ ë¶€ì¡±í•œ ì¡°ê°ì´ ìˆë‹¤.";
+			stringMap["AmuletThree2"] = L"ì´ì œ ë¸”ë™í™€ì— ì°©ë¥™í•  ìˆ˜ ìˆë‹¤.";
+			stringMap["AmuletGet"] = L"ì˜Œë”ì˜ ë¶€ì  ì¡°ê° í•˜ë‚˜ë¥¼ íšë“í–ˆë‹¤.";
+			stringMap["AmuletGet2"] = L"ì˜Œë”ì˜ ë¶€ì  ì¡°ê°ì„ {1}ê°œì§¸ íšë“í–ˆë‹¤.";
 
 			// Equipment
-			stringMap["DropFail"] = L"ÀÌ°÷¿¡´Â ÀÌ¹Ì ´Ù¸¥ ¾ÆÀÌÅÛÀÌ ÀÖ´Ù.";
-			stringMap["DropWeapon"] = L"{1}[Àº|´Â] {2}[À»|¸¦] ¶³¾î¶ß·È´Ù.";
-			stringMap["DiscardWeapon"] = L"{1}[Àº|´Â] {2}[À»|¸¦] ¹ö·È´Ù.";
-			stringMap["TakeAmmo"] = L"{1}ÀÇ Åº¾àÀ» Ã¤¿ü´Ù.";
-			stringMap["AmmoFull"] = L"ÀÌ¹Ì Åº¾àÀº ÃæºĞÇÏ´Ù.";
-			stringMap["AlreadyHave"] = L"ÀÌ Á¾·ùÀÇ ¹«±â´Â ÀÌ¹Ì °¡Áö°í ÀÖ´Ù.";
-			stringMap["PickUpWeapon"] = L"{1}[À»|¸¦] Áı¾îµé¾ú´Ù.";
-			stringMap["DropArmor"] = L"{1}[Àº|´Â] {2}[À»|¸¦] ¹ö·È´Ù.";
+			stringMap["DropFail"] = L"ì´ê³³ì—ëŠ” ì´ë¯¸ ë‹¤ë¥¸ ì•„ì´í…œì´ ìˆë‹¤.";
+			stringMap["DropWeapon"] = L"{1}[ì€|ëŠ”] {2}[ì„|ë¥¼] ë–¨ì–´ëœ¨ë ¸ë‹¤.";
+			stringMap["DiscardWeapon"] = L"{1}[ì€|ëŠ”] {2}[ì„|ë¥¼] ë²„ë ¸ë‹¤.";
+			stringMap["TakeAmmo"] = L"{1}ì˜ íƒ„ì•½ì„ ì±„ì› ë‹¤.";
+			stringMap["AmmoFull"] = L"ì´ë¯¸ íƒ„ì•½ì€ ì¶©ë¶„í•˜ë‹¤.";
+			stringMap["AlreadyHave"] = L"ì´ ì¢…ë¥˜ì˜ ë¬´ê¸°ëŠ” ì´ë¯¸ ê°€ì§€ê³  ìˆë‹¤.";
+			stringMap["PickUpWeapon"] = L"{1}[ì„|ë¥¼] ì§‘ì–´ë“¤ì—ˆë‹¤.";
+			stringMap["DropArmor"] = L"{1}[ì€|ëŠ”] {2}[ì„|ë¥¼] ë²„ë ¸ë‹¤.";
 
 			// PauseState
-			stringMap["Return"]		= L"µ¹¾Æ°¡±â";
-			stringMap["Restart"]	= L"Àç½ÃÀÛ ";
-			stringMap["Quit"]		= L"Á¾·á  ";
+			stringMap["Return"]		= L"ëŒì•„ê°€ê¸°";
+			stringMap["Restart"]	= L"ì¬ì‹œì‘ ";
+			stringMap["Quit"]		= L"ì¢…ë£Œ  ";
 
 			// VictoryState
-			stringMap["Victory"] = L"¿º´õÀÇ ºÎÀûÀÌ ¹İÂ¦ÀÌ¸ç È­ÀÌÆ®È¦À» Åë°úÇß´Ù.";
-			stringMap["Victory2"] = L"´ç½ÅÀº ´Ù¸¥ ¿ìÁÖ·Î µµ¸ÁÃÆ´Ù.";
-			stringMap["Victory3"] = L"¿º´õÀÇ ºÎÀûÀ» Æ¯ÀÌÁ¡ À§¿¡ ³»·Á³õ¾Ò´Ù.";
-			stringMap["Victory4"] = L"ºí·¢È¦Àº »ç¶óÁö°í ´ç½ÅÀº ÀÌ ¿ìÁÖ¸¦ ÁöÄÑ³Â´Ù.";
-			stringMap["YouWon"] = L"½Â¸®Çß½À´Ï´Ù!";
-			stringMap["SpacePirate"] = L"¿ìÁÖ ÇØÀû: ¸ğµç ¿ìÁÖ¼±À» Ä§·«Çß´Ù.";
-			stringMap["PlanetExplorer"] = L"Çà¼º Å½Çè°¡: ¸ğµç Çà¼ºÀ» ¹æ¹®Çß´Ù.";
+			stringMap["Victory"] = L"ì˜Œë”ì˜ ë¶€ì ì´ ë°˜ì§ì´ë©° í™”ì´íŠ¸í™€ì„ í†µê³¼í–ˆë‹¤.";
+			stringMap["Victory2"] = L"ë‹¹ì‹ ì€ ë‹¤ë¥¸ ìš°ì£¼ë¡œ ë„ë§ì³¤ë‹¤.";
+			stringMap["Victory3"] = L"ì˜Œë”ì˜ ë¶€ì ì„ íŠ¹ì´ì  ìœ„ì— ë‚´ë ¤ë†“ì•˜ë‹¤.";
+			stringMap["Victory4"] = L"ë¸”ë™í™€ì€ ì‚¬ë¼ì§€ê³  ë‹¹ì‹ ì€ ì´ ìš°ì£¼ë¥¼ ì§€ì¼œëƒˆë‹¤.";
+			stringMap["YouWon"] = L"ìŠ¹ë¦¬í–ˆìŠµë‹ˆë‹¤!";
+			stringMap["SpacePirate"] = L"ìš°ì£¼ í•´ì : ëª¨ë“  ìš°ì£¼ì„ ì„ ì¹¨ëµí–ˆë‹¤.";
+			stringMap["PlanetExplorer"] = L"í–‰ì„± íƒí—˜ê°€: ëª¨ë“  í–‰ì„±ì„ ë°©ë¬¸í–ˆë‹¤.";
 		}
 	}
 

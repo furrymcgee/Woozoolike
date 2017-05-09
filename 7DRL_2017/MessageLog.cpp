@@ -26,7 +26,7 @@ void MessageLog::print(const std::wstring& string, const sf::Color& color)
 		if (Strings::getLanguage() == Language::English)
 			messages.back().string = capitalize(messages.back().string);
 
-		// ÇÑ±¹¾îÀÇ Á¶»ç Ã³¸®
+		// í•œêµ­ì–´ì˜ ì¡°ì‚¬ ì²˜ë¦¬
 		else if (Strings::getLanguage() == Language::Korean)
 			handleKorean(messages.back().string);
 
@@ -81,12 +81,12 @@ int MessageLog::finalConsonant(wchar_t ch)
 	if (ch >= 0xac00 && ch <= 0xd7a3)
 	{
 		if ((ch - 0xac00) % 28 == 0)
-			return 0; // ¹ÞÄ§ ¾øÀ½ (vowel)
+			return 0; // ë°›ì¹¨ ì—†ìŒ (vowel)
 		else
-			return 1; // ¹ÞÄ§ ÀÖÀ½ (consonant)
+			return 1; // ë°›ì¹¨ ìžˆìŒ (consonant)
 	}
 
-	// ¼ýÀÚ
+	// ìˆ«ìž
 	else if (ch >= L'0' && ch <= L'9')
 	{
 		if (std::wstring(L"013678").find(ch) != std::wstring::npos)
@@ -95,7 +95,7 @@ int MessageLog::finalConsonant(wchar_t ch)
 			return 0;
 	}
 
-	return -1; // ÇÑ±ÛÀÌ ¾Æ´Ô
+	return -1; // í•œê¸€ì´ ì•„ë‹˜
 }
 
 void MessageLog::handleKorean(std::wstring& string)
@@ -124,7 +124,7 @@ void MessageLog::handleKorean(std::wstring& string)
 			}
 		}
 
-		std::wstring postposition; // Àº, ´Â, ÀÌ, °¡, À», ¸¦, ...
+		std::wstring postposition; // ì€, ëŠ”, ì´, ê°€, ì„, ë¥¼, ...
 
 		if (finalConsonant(ch) == 1)
 			postposition = string.substr(leftBracket + 1, verticalBar - (leftBracket + 1));
